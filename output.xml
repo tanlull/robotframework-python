@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0 (Python 3.7.9 on win32)" generated="20210325 14:11:28.280" rpa="false" schemaversion="2">
+<suite id="s1" name="Demo" source="C:\Users\tanlu\git\robotframework-python\demo.robot">
+<test id="s1-t1" name="เปิด google.co.th ด้วย Chrome">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://www.google.co.th</arg>
+<arg>msedge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210325 14:11:28.706" level="INFO">Opening browser 'msedge' to base url 'http://www.google.co.th'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210325 14:11:28.707" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20210325 14:11:28.707" endtime="20210325 14:11:28.707"/>
+</kw>
+<msg timestamp="20210325 14:11:28.711" level="FAIL">ValueError: msedge is not a supported browser.</msg>
+<status status="FAIL" starttime="20210325 14:11:28.705" endtime="20210325 14:11:28.711"/>
+</kw>
+<status status="FAIL" starttime="20210325 14:11:28.702" endtime="20210325 14:11:28.712">ValueError: msedge is not a supported browser.</status>
+</test>
+<status status="FAIL" starttime="20210325 14:11:28.284" endtime="20210325 14:11:28.719"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

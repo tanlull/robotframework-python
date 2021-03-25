@@ -1,0 +1,15 @@
+https://www.selenium.dev/selenium/docs/api/py/
+
+Chrome driver version : 89.0.4389.23
+https://chromedriver.storage.googleapis.com/index.html?path=89.0.4389.23/
+
+Edge Driver : 89.0.774.57 
+https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+
+
+
+run 
+python demp.py 
+
+
+node demo.js
